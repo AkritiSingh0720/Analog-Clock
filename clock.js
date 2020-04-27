@@ -15,7 +15,6 @@ function draw () {
         c = {x: canvas.width / 2, y: canvas.height / 2};
 
     ctx.clearRect(0, 0, canvas.width, canvas.height);
-
     ctx.lineCap = 'round';
 
     secondHand();
