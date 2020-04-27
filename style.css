@@ -1,0 +1,21 @@
+body {
+  background-color:rgb(0, 131, 143);
+  display: flex;
+  justify-content:center;
+align-items:center;
+min-height:100vh;
+}
+*
+{
+margin:0;
+padding:0;
+box-sizing:boder-box;
+}
+.clock
+{
+width:350px;
+height:350px;
+display:flex;
+justify-content:center;
+align-items:center;
+}
