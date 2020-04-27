@@ -18,7 +18,7 @@ function getWeekday(n,day)
 }
 
 // if you want to get 1st sunday from today just call this
-   var sunday1 = getWeekday(1,0)
+   var sunday1= getWeekday(1,0)
 
 // to get second monday from today 
-   var monday2 = getWeekday(2,1)
+   var monday2= getWeekday(2,1)
