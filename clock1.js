@@ -66,17 +66,3 @@ Vector.add = function (v1, v2) {
 Vector.subtract = function (v1, v2) {
     return Vector.rectangular(v1.getX() - v2.getX(), v1.getY() - v2.getY());
 };
-function nthWeekdayOfMonth(weekday, n, date) {
-  var month = date.getMonth();
-  var date = new Date(date.getFullYear(), month, 1),
-      add = (weekday - date.getDay() + 7) % 7 + (n - 1) * 7;
-
-  // make sure that we stay in the same month
-  do {
-    date.setMonth(month);
-    date.setDate(1 + add);
-    add -= 7;
-  } while (date.getMonth() != month);
-
-  return date;
-}
