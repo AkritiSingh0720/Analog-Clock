@@ -48,7 +48,6 @@ function draw () {
             ctx.stroke();
         }
 
-        // Numbers
         ctx.font = '18px Noto Sans';
         ctx.fillStyle = 'black';
         ctx.textAlign = 'center';
@@ -58,7 +57,6 @@ function draw () {
             ctx.fillText(i, v.getX() + c.x, v.getY() + c.y);
         }
 
-        // Center button
         ctx.beginPath();
         ctx.arc(c.x, c.y, 3.75, 0, Math.PI * 2);
         ctx.fillStyle = 'white';
